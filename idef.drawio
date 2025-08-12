@@ -1,0 +1,70 @@
+<mxfile name="IDEF.drawio" type="device">
+  <diagram name="Страница-1" id="0">
+    <mxGraphModel dx="946" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A0" value="Написание курсовой работы (A0)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="A1" value="A1: Планирование" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="A0">
+          <mxGeometry x="50" y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A2" value="A2: Анализ источников" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="A0">
+          <mxGeometry x="50" y="100" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A3" value="A3: Написание" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="A0">
+          <mxGeometry x="50" y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A4" value="A4: Проверка" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="A0">
+          <mxGeometry x="50" y="220" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Тема" value="Тема" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Тема" target="A1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Источники" value="Источники" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Источники" target="A2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Методичка" value="Методичка" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Методичка" target="A1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Методичка" target="A4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="План" value="План" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A1" target="План">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Конспект" value="Конспект" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A2" target="Конспект">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Черновик" value="Черновик" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="300" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A3" target="Черновик">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Готовая_работа" value="Готовая работа" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="360" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A4" target="Готовая_работа">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
