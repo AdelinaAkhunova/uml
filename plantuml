@@ -1,0 +1,20 @@
+skinparam rectangle {
+  BackgroundColor White
+  BorderColor Black
+}
+
+rectangle "Написание курсовой работы (A0)" as A0 {
+  rectangle "A1: Планирование" as A1
+  rectangle "A2: Анализ источников" as A2
+  rectangle "A3: Написание" as A3
+  rectangle "A4: Проверка" as A4
+}
+
+[Тема] --> A1
+[Источники] --> A2
+[Методичка] --> A1
+[Методичка] --> A4
+A1 --> [План]
+A2 --> [Конспект]
+A3 --> [Черновик]
+A4 --> [Готовая работа]
